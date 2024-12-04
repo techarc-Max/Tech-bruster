@@ -1,0 +1,197 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Tech News App
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     Tech News
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Latest
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Categories
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     Latest News
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of the latest smartphone with sleek design and advanced features" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/5hU5EaRde4XwdCf8e11Zchx2S1ZWIctdwEuh0057m8jJLGvnA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       New Smartphone Release
+      </h3>
+      <p class="text-gray-700">
+       The latest smartphone model has been released, featuring cutting-edge technology and a sleek design.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new processor chip with high performance capabilities" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/X7HeFG9kJsSf5UusceiFREfaSfccif0glRsDEfBjzQaVqix7JA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       New Processor Unveiled
+      </h3>
+      <p class="text-gray-700">
+       A new processor has been unveiled, promising unprecedented performance and efficiency for computing devices.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a futuristic gadget with innovative features" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/R0jxE9D8qqoVLVCA2e1xU9FiWtNjLHoeYJDkVaxKnEVfKGvnA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Innovative Gadget Launch
+      </h3>
+      <p class="text-gray-700">
+       An innovative gadget has been launched, offering unique features and capabilities that set it apart from the competition.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new laptop model with high-end specifications" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/yb2Nb8o88ub4It0AN6FOCWqSZ2UJnW4jVCO9DrBPujHXx49E.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       High-End Laptop Release
+      </h3>
+      <p class="text-gray-700">
+       A new high-end laptop has been released, boasting top-of-the-line specifications and a sleek design.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new wearable device with advanced health tracking features" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/N35cfiY6wQzPQ6YHeDtWXxsLFvbtwmvizVJymUaqLSadFj3TA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Advanced Wearable Device
+      </h3>
+      <p class="text-gray-700">
+       A new wearable device has been introduced, featuring advanced health tracking and connectivity options.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new gaming console with immersive gaming experience" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/EFfISefPMWT3XIWNHnBdM4mSsqzlPJ7tQmW8eojQzchNVMeeE.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Next-Gen Gaming Console
+      </h3>
+      <p class="text-gray-700">
+       The next-generation gaming console has been launched, offering an immersive gaming experience with cutting-edge technology.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new tablet with high-resolution display and powerful performance" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/NGHxjQMP9ezRVq2sm3QJZocOfDY0ofAfgn5LHrwizpheqY8eE.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       New Tablet Model
+      </h3>
+      <p class="text-gray-700">
+       A new tablet model has been released, featuring a high-resolution display and powerful performance for all your needs.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new smart home device with advanced automation features" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/thtNWAcU9KpNHVmXxpeKclHjuje8i5YAofGppN50xtZALGvnA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Smart Home Device
+      </h3>
+      <p class="text-gray-700">
+       A new smart home device has been introduced, offering advanced automation features to enhance your home experience.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new VR headset with immersive virtual reality experience" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/4MtbebMgwTU4WSyyCxYeYh2vNhIN2CzBCZfFbTPofvYPWMeeE.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       VR Headset Launch
+      </h3>
+      <p class="text-gray-700">
+       A new VR headset has been launched, providing an immersive virtual reality experience with cutting-edge technology.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new drone with advanced flight capabilities and high-resolution camera" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/IRUdCHNNzJ74AFEWaSSltkDfuEWVsfCpUpcVe741hCdzKGvnA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Advanced Drone
+      </h3>
+      <p class="text-gray-700">
+       A new drone has been introduced, featuring advanced flight capabilities and a high-resolution camera for stunning aerial photography.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new smartwatch with fitness tracking and connectivity features" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/iUJbQfVdlTxaCKcbHpfcXdB05CDmdU2WU4nRW9s0gighFj3TA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Smartwatch Release
+      </h3>
+      <p class="text-gray-700">
+       A new smartwatch has been released, offering fitness tracking and connectivity features to keep you connected on the go.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new e-reader with high-resolution display and long battery life" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/t7csDWyv3KYHGpcdeHkV9cnIf7MfCWywfluFvcMklvDoVMeeE.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       New E-Reader
+      </h3>
+      <p class="text-gray-700">
+       A new e-reader has been introduced, featuring a high-resolution display and long battery life for an enhanced reading experience.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new camera with advanced photography features and high-resolution sensor" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/3ofOBx7Bgy1dPyem4yeKXFKa7emdqA0fxlps4hlmMxmVsY8eE.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Advanced Camera
+      </h3>
+      <p class="text-gray-700">
+       A new camera has been launched, offering advanced photography features and a high-resolution sensor for stunning images.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new wireless earbuds with high-quality sound and noise cancellation" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/saVrDl0CZd4tM9RLwqUWvmHx6UI8FDLicZ3mWH8CEamVx49E.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Wireless Earbuds
+      </h3>
+      <p class="text-gray-700">
+       New wireless earbuds have been released, providing high-quality sound and noise cancellation for an immersive audio experience.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="Image of a new smart speaker with voice assistant and high-quality sound" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/PqjWHNpjZzYmFFIORFfK8hfdUB8pNZVKBeFANLmXiqMKLGvnA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Smart Speaker
+      </h3>
+      <p class="text-gray-700">
+       A new smart speaker has been introduced, featuring a voice assistant and high-quality sound for an enhanced audio experience.
+      </p>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 Tech News. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
